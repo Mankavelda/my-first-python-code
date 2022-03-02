@@ -1,12 +1,12 @@
 import turtle
 from turtle import *
 
-# def square(side):
-#     for i in range(4):
-#         forward(side)
-#         right(90)
+def square(side):
+    for i in range(4):
+        forward(side)
+        right(90)
 
-# square(100)
+square(100)
 
 def flower(length, fcolor):
     while True:
